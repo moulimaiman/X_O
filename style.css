@@ -1,0 +1,66 @@
+body {
+    margin : 0 ;
+    padding : 7px ;
+    display : flex ;
+    justify-content:  center;  
+    background : #d5f4ff ;
+    
+}
+
+* {
+    transition:  0.75s ;
+}
+
+.title {
+    font-family: monaco ;
+    font : bold 17pt #00063c ;
+}
+.title:hover {
+    letter-spacing: 7px ;
+    color : #000a65
+}
+
+td {
+        width : 70px ; 
+        height: 70px ;
+        font-size:  30px ; 
+        text-align : center ; 
+    }
+#res {
+    color : #3eba41 ;
+    letter-spacing : 5px ;
+    font : bold 17px monaco ;
+}
+
+input[type="button"] {
+    background-color: #007dba;
+    color : #bababa ; 
+    font : bold 19px Monaco; 
+    border-radius: 30px ;
+    border : none ; 
+    padding:  17px ;
+}
+
+input[type="button"]:hover {
+    box-shadow: 3px 3px 4px #2fb2ba ;
+    transform: rotate(360deg);
+}
+.affres {
+    font : oblique bold 17px calibri; 
+    color : #ba3600 ;
+    padding: 17px;
+    padding-top:  5px ;
+    padding-bottom : 5px ; 
+    text-align: center ;
+    border : 4px solid #2bd5ff ; 
+    border-radius: 100px ;
+}
+
+
+
+
+
+
+
+
+

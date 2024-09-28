@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game X_O</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.ico">
+</head>
+<body>
+    <div style="text-align : center ;">
+    <h1 class="title"> Game X_O </h1>
+    <table border="1">
+        <tr>
+            <td id="td1" onclick="x_o1()"></td>
+            <td id="td2" onclick="x_o2()"></td>
+            <td id="td3" onclick="x_o3()"></td>
+        </tr>
+        <tr>
+            <td id="td4" onclick="x_o4()"></td>
+            <td id="td5" onclick="x_o5()"></td>
+            <td id="td6" onclick="x_o6()"></td>
+        </tr>
+        <tr>
+            <td id="td7" onclick="x_o7()"></td>
+            <td id="td8" onclick="x_o8()"></td>
+            <td id="td9" onclick="x_o9()"></td>
+        </tr>
+    </table>
+    <hr style="margin: 17px ;">
+    
+    <p id="res" align="center"> Result </p>
+    <div class="affres">
+    <p id="game" align="center"> X : 0 , O : 0 , EquXO : 0 </p>  
+    </div>
+    <hr style="margin: 17px ;">
+    
+    <input type="button" value="Repeat >O" onclick="repeatgame()">
+    </div>
+</body>
+</html>
